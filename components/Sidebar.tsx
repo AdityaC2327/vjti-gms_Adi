@@ -15,24 +15,24 @@ const Sidebar = () => {
 
       {/* Menu Items */}
       <nav className="space-y-2">
-        <Link href="#" className="flex items-center space-x-2 text-gray-700 hover:text-black">
+        <Link href="/" className="flex items-center space-x-2 text-gray-700 hover:text-black">
           <Home className="w-5 h-5" />
           <span>Dashboard</span>
         </Link>
 
-        <div className="text-xs text-gray-400 mt-4 mb-2">ANALYTICS</div>
+        <div className="text-xs text-gray-400 mt-4 mb-2">ENTRIES</div>
 
-        <Link href="#" className={cn("flex items-center space-x-2 p-2 rounded-lg", "bg-blue-100 text-blue-600")}>  
+        <Link href="/entryforms" className={cn("flex items-center space-x-2 p-2 rounded-lg", "bg-blue-100 text-blue-600")}>  
           <Users className="w-5 h-5" />
           <span>Visitors</span>
         </Link>
 
-        <Link href="#" className="flex items-center space-x-2 text-gray-700 hover:text-black">
+        <Link href="/vehicles" className="flex items-center space-x-2 text-gray-700 hover:text-black">
           <Car className="w-5 h-5" />
           <span>Vehicles</span>
         </Link>
 
-        <Link href="#" className="flex items-center space-x-2 text-gray-700 hover:text-black">
+        <Link href="/keys" className="flex items-center space-x-2 text-gray-700 hover:text-black">
           <Key className="w-5 h-5" />
           <span>Keys</span>
         </Link>
